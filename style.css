@@ -19,7 +19,7 @@ nav a {
 }
 
 .hero {
-  height: 100vh;
+  height: 60vh;
   background: url("image1.png") no-repeat center center/cover;
   display: flex;
   justify-content: center;

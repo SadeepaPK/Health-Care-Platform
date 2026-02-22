@@ -25,7 +25,7 @@ nav a.active {
 
 .about-hero {
   height: 60vh;
-  background: url("images/about-bg.jpg") no-repeat center center/cover;
+  background: url("aboutus.png") no-repeat center center/cover;
   position: relative;
   display: flex;
   justify-content: center;
