@@ -19,9 +19,9 @@ nav a {
   color: white;
 }
 
-nav a.active {
+/* nav a.active {
   border-bottom: 2px solid white;
-}
+} */
 
 .about-hero {
   height: 100vh;
