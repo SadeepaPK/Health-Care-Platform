@@ -146,6 +146,60 @@ li::before {
   padding: 10px;
 }
 
+/* Contact Section Styling */
+.contact-section {
+    background-color: #ffffff;
+    padding: 60px 0;
+    border-top: 1px solid #eee;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.icon:hover {
+    transform: translateY(-5px);
+    filter: brightness(1.1);
+}
+
+/* Brand Colors */
+.facebook { background-color: #1877F2; }
+.whatsapp { background-color: #25D366; }
+.tiktok   { background-color: #000000; }
+.youtube  { background-color: #FF0000; }
+
+@media (max-width: 768px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .social-icons {
+        justify-content: center;
+    }
+}
+
 footer {
   background: #17252a;
   color: white;
